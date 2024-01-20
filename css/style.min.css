@@ -1,3 +1,23 @@
+@media (min-width:1200px) {
+	
+}
+
+@media (min-width:950px) {
+	.header img {
+    margin-left: 120px;
+}
+	.header p {
+    margin-left: 120px;
+}
+	.MainMenu h1 {
+    font-size: 140px;
+    margin-left: 120px;
+}
+	.footer p {
+    margin-left: 120px;
+}
+}
+
 body {
     background-color: rgb(255, 255, 255);
     height: auto;
