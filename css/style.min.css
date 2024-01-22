@@ -1,23 +1,3 @@
-@media (min-width:1200px) {
-	
-}
-
-@media (min-width:950px) {
-	.header img {
-    margin-left: 120px;
-}
-	.header p {
-    margin-left: 120px;
-}
-	.MainMenu h1 {
-    font-size: 140px;
-    margin-left: 120px;
-}
-	.footer p {
-    margin-left: 120px;
-}
-}
-
 body {
     background-color: rgb(255, 255, 255);
     height: auto;
@@ -292,4 +272,56 @@ iframe {
     height: 720px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+/* Для разрешений шириной до 480px */
+@media (max-width: 480px) {
+    .header img {
+        width: 300px;
+    }
+    .MainMenu h1 {
+        font-size: 75px;
+    }
+    .footer p {
+        font-size: 20px;
+    }
+}
+
+/* Для разрешений шириной от 481px до 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .header img {
+        width: 400px;
+    }
+    .MainMenu h1 {
+        font-size: 100px;
+    }
+    .footer p {
+        font-size: 25px;
+    }
+}
+
+/* Для разрешений шириной от 769px до 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header img {
+        width: 450px;
+    }
+    .MainMenu h1 {
+        font-size: 125px;
+    }
+    .footer p {
+        font-size: 30px;
+    }
+}
+
+/* Для разрешений шириной от 1025px и выше */
+@media (min-width: 1025px) {
+    .header img {
+        width: 500px;
+    }
+    .MainMenu h1 {
+        font-size: 175px;
+    }
+    .footer p {
+        font-size: 35px;
+    }
 }
