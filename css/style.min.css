@@ -460,3 +460,57 @@ iframe {
         margin: 50px 0px 50px 0px;
     }
 }
+@media (min-width: 1000px) and (max-width: 1300px) {
+    iframe {
+        text-align: center;
+        width: 960px;
+        height: 540px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+}
+@media (min-width: 860px) and (max-width: 999px) {
+    iframe {
+        text-align: center;
+        width: 720px;
+        height: 405px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+}
+@media (min-width: 720px) and (max-width: 859px) {
+    iframe {
+        text-align: center;
+        width: 640px;
+        height: 360px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
+@media (min-width: 640px) and (max-width: 719px) {
+    iframe {
+        text-align: center;
+        width: 480px;
+        height: 270px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
+@media (min-width: 420px) and (max-width: 639px) {
+    iframe {
+        text-align: center;
+        width: 380px;
+        height: 213px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width: 419px) {
+    iframe {
+        text-align: center;
+        width: 300px;
+        height: 168px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
