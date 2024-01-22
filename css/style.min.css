@@ -1,0 +1,462 @@
+body {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'MainBold';
+    src: url(../fonts/dharma-gothic-e-exbold.otf);
+}
+
+@font-face {     /* first */
+    font-family: 'font';
+    src: url(../fonts/ofont.ru_Ramona.ttf);
+}
+
+.container {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.home {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-family: 'font';
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Шапка */
+header {
+    background-color: rgba(127, 255, 212, 0);
+    width: 100%;
+    height: auto;
+}
+
+.header img {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left: 90px;
+    width: 500px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header p {
+    text-align: center;
+    font-size: 42px;
+    color: black;
+    font-family: 'MainBold';
+    letter-spacing: 5px;
+}
+
+/* section MainMenu */
+
+.MainMenu {
+    margin-top: 75px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0);
+    margin-bottom: 110px;
+}
+
+.MainMenu h1 {
+    font-family: 'font';
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 7px;
+    text-align: center;
+    color: #363030;
+    font-size: 175px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+.MainMenu a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.MainMenu h1:hover {
+    color: rgb(0, 0, 0);
+}
+
+.footer p {
+    font-family: 'MainBold';
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: #2d2d2d;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    letter-spacing: 5px;
+}
+
+/* О нас */
+
+.headerOther {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.headerOther a {
+    text-decoration: none;
+}
+
+.headerOther img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    width: 250px;
+}
+
+.headerOther p {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-family: 'MainBold';
+    letter-spacing: 5px;
+}
+
+.ForUs h1 {
+    font-family: 'font';
+    padding-left: 0px;
+    margin: 0px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.15;
+}
+
+.footerOther p {
+    font-family: 'MainBold';
+    text-align: center;
+    color: #3b3b3b;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 6px;
+}
+
+/* Музыка */
+
+.ImageContainer {
+    text-align: center;
+    position: relative;
+}
+
+.ImageContainer img {
+    width: 100%;
+    width: 1000px;
+    text-align: center;
+}
+
+.ContOverlayText {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 184px;
+    width: 1000px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OverlayText {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'font';
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ImageContainer:hover .ContOverlayText {
+    opacity: 1;
+}
+.ImageContainer:hover .OverlayText {
+    display: block;
+}
+
+.Contacts h1 {
+    font-family: 'font';
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.Contacts img {
+    width: 100px;
+}
+
+.Contacts nav {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Contacts nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Clothes h1 {
+    font-family: 'font';
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.15;
+}
+
+.Video h1 {
+    font-family: 'font';
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.15;
+}
+
+.Video {
+    text-align: center;
+}
+
+iframe {
+    text-align: center;
+    width: 1280px;
+    height: 720px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Для разрешений шириной до 350px */
+@media (max-width: 350px) {
+    .header img {
+        width: 300px;
+        margin-left: 35px;
+    }
+    .header p {
+        margin-left: 30px;
+        font-size: 28px;
+    }
+    .MainMenu h1 {
+        font-size: 46px;
+        margin-left: 30px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    .headerOther img {
+        margin-left: 45px;
+    }
+    .headerOther p {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+    .ForUs h1 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .headerOther img {
+        width: 230px;
+    }
+    .footerOther p {
+        font-size: 15px;
+    }
+    .Contacts h1 {
+        font-size: 16px;
+    }
+    .Contacts img {
+        width: 50px;
+    }
+}
+
+/* Для разрешений шириной от 350px до 430px */
+@media (min-width: 350px) and (max-width: 430px) {
+    .header img {
+        width: 300px;
+        margin-left: 35px;
+    }
+    .header p {
+        margin-left: 35px;
+        font-size: 30px;
+    }
+    .MainMenu h1 {
+        font-size: 55px;
+        margin-left: 20px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    .headerOther img {
+        width: 240px;
+    }
+    .headerOther p {
+        font-size: 28px;
+    }
+    .footerOther p {
+        font-size: 15px;
+    }
+    .ForUs h1 {
+        font-size: 25px;
+    }
+    .Contacts h1 {
+        font-size: 16px;
+    }
+    .Contacts img {
+        width: 60px;
+    }
+}
+
+/* Для разрешений шириной от 431px до 520px */
+@media (min-width: 431px) and (max-width: 520px) {
+    .header img {
+        width: 300px;
+        margin-left: 35px;
+    }
+    .header p {
+        margin-left: 35px;
+        font-size: 28px;
+    }
+    .MainMenu h1 {
+        font-size: 65px;
+        margin-left: 20px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+    .headerOther img {
+        width: 240px;
+    }
+    .headerOther p {
+        font-size: 30px;
+    }
+    .footerOther p {
+        font-size: 18px;
+    }
+    .Contacts h1 {
+        font-size: 26px;
+    }
+    .Contacts img {
+        width: 80px;
+    }
+}
+/* Для разрешений шириной от 521px до 768px */
+@media (min-width: 521px) and (max-width: 768px) {
+    .header img {
+        width: 400px;
+    }
+    .MainMenu h1 {
+        font-size: 90px;
+    }
+    .footer p {
+        font-size: 25px;
+    }
+    .headerOther img {
+        width: 250px;
+    }
+    .headerOther p {
+        font-size: 32px;
+    }
+    .footerOther p {
+        font-size: 25px;
+    }
+    .Contacts h1 {
+        font-size: 32px;
+    }
+}
+/* Для разрешений шириной от 769px до 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header img {
+        width: 450px;
+    }
+    .MainMenu h1 {
+        font-size: 120px;
+    }
+    .footer p {
+        font-size: 30px;
+    }
+    .headerOther img {
+        width: 250px;
+    }
+    .footerOther p {
+        font-size: 30px;
+    }
+}
+/* Для разрешений шириной от 1025px и выше */
+@media (min-width: 1025px) {
+    .header img {
+        width: 500px;
+    }
+    .MainMenu h1 {
+        font-size: 175px;
+    }
+    .footer p {
+        font-size: 35px;
+    }
+    .headerOther img {
+        width: 250px;
+    }
+    .footerOther p {
+        font-size: 35px;
+    }
+}
+
+/* Особенности */
+@media (min-width: 460px) and (max-width: 600px) {
+    .Clothes h1 {
+        font-size: 60px;
+    }
+}
+@media (max-width: 459px) {
+    .Clothes h1 {
+        font-size: 40px;
+        margin: 50px 0px 50px 0px;
+    }
+}
