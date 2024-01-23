@@ -1,2 +1,0 @@
-# freakycreative
-site freakycreative
