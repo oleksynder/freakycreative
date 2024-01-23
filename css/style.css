@@ -178,21 +178,21 @@ header {
 .left-container {
     float: left;
     width: calc(50% - 500px);
-    height: 1000px;
+    height: 100px;
 }
 
 /* music */
 .music {
     float: left;
-    width: 1000px;
-    height: 1000px;
+    width: 100px;
+    height: 100px;
 }
 
 /* right */
 .right-container {
     float: left;
     width: calc(50% - 500px);
-    height: 1000px;
+    height: 100px;
 }
 
 .ImageContainer {
